@@ -17,7 +17,7 @@ class Job(models.Model):
         (HYBRID, "Hybrid"),
     )
     title = models.CharField(max_length=100)
-    description = models.TextField(max_length=300)
+    description = models.TextField(max_length=500)
     company_name = models.CharField(max_length=75)
     requirements = models.CharField(max_length=150)
     location = models.CharField(max_length=75)
